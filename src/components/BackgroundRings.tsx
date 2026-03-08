@@ -92,7 +92,7 @@ function RingGroup({ position }: RingGroupProps) {
 
 export default function BackgroundRings() {
     return (
-        <div className="pointer-events-none fixed inset-0 overflow-hidden">
+        <div className="pointer-events-none fixed inset-0 overflow-hidden ">
             <RingGroup position="top-right" />
             <RingGroup position="bottom-left" />
         </div>

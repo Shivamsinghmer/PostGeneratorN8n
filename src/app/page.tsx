@@ -82,10 +82,6 @@ export default function PostGenerator() {
             <StatusAlert status={status} message={message} />
           </form>
         </div>
-
-        <p className="text-center text-xs text-muted-foreground px-4 pb-2 font-medium tracking-wide">
-          Neural Network Powered · Maximum Engagement Content
-        </p>
       </div>
     </main>
   );
